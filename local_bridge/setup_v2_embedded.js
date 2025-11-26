@@ -2,6 +2,7 @@
 // 1. Node.js must be installed on the victim machine.
 // 2. The script must be run with Administrator/Root privileges (to update the Trust Store and Hosts file).
 // 3. No npm install is required for the local machine (the script uses native Node.js modules).
+// 4. You MUST update line 34!
 
 // This version is self-contained. It contains the ZIP file (provided in your prompt) encoded as a string. It writes the ZIP to disk, extracts it, and runs the defense.
 
