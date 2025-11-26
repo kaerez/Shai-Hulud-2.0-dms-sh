@@ -15,7 +15,7 @@ This repository contains tools to neutralize the "Dead Man's Switch" found in th
 ## ⚠️ Prerequisite: Cloud Brain (Heroku)
 Before running the local defense scripts, you must deploy the "Brain" to Heroku. This is the server that will receive the redirected traffic.\
 **You may optionally use the preconfigured instance configured in the client (local bridge) files:**\
-`shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`\
+`shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`
 
 1.  Deploy the code in this repo to Heroku.
 2.  Note your Heroku URL (e.g., `https://your-app-123.herokuapp.com`).
@@ -33,7 +33,7 @@ Before running the local defense scripts, you must deploy the "Brain" to Heroku.
 
 Choose the version that matches your environment constraints.\
 **You may optionally use the preconfigured instance configured in the client (local bridge) files:**\
-`shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`\
+`shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`
 
 ### Option A: Node.js Available (Recommended)
 If the victim machine has Node.js installed.
