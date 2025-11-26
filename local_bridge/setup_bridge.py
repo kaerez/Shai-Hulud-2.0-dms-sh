@@ -1,6 +1,9 @@
 """
 Shai-Hulud 2.0 Defense - Self-Generating Bridge (Python)
 
+Free and open source for non commercial open source use with attribution
+Author: Erez Kalman
+
 1. Generates a self-signed CA valid for: api.github.com, registry.npmjs.org, raw.githubusercontent.com
 2. Trusts the CA in the OS store.
 3. Hijacks DNS via /etc/hosts.
