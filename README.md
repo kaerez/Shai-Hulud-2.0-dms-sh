@@ -8,7 +8,8 @@
 
 ## **🛡️ Overview**
 
-This project provides a **containment solution** for the Shai-Hulud 2.0 supply chain malware.
+This project provides a **containment solution** for the Shai-Hulud 2.0 supply chain malware.\
+See `HARDEN.md` for ways to protect your environment.
 
 ### The Threat:  
 Shai-Hulud 2.0 contains a destructive "Dead Man's Switch". It continuously verifies connectivity to GitHub and NPM. If a security team isolates the infected machine from the internet, these checks fail, and the malware activates a wiper to delete user data.  
