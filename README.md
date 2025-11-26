@@ -36,36 +36,36 @@ This repository implements a Hybrid Sinkhole:
 2. **Create a Heroku App** and deploy this repository to it.  
    * Heroku will automatically detect package.json and start server.js.  
 3. **Copy your App URL** (e.g., `https://my-sinkhole-123.herokuapp.com`).  
-4. You can verify it works by visiting `https://your-app-url.herokuapp.com/-/whoami` in your browser. It should return `{"username": "sinkhole\_safe\_user"}`.
+4. You can verify it works by visiting `https://your-app-url.herokuapp.com/-/whoami` in your browser. It should return `{"username": "sinkhole_safe_user"}`.
 
 ### **Phase 2: The "Bridge" (Infected Machine)**
 
 *Run this on the machine you wish to isolate/protect.*
 
 1. **Download** one of the defense scripts from this repository to the victim machine.  
-2. **Edit the Script:** Open the file and replace the variable `HEROKU_APP_HOST` (or `HEROKU_APP_URL`) with the URL you copied in Phase 1.  
+2. **Edit the Script:** Open the file and replace the variable `HEROKU_APP_HOST` (or `HEROKU_APP_URL`) with the URL you copied in Phase 1.
 3. **Run the Script:**
+ 
+**Option A: Node.js is installed (Recommended)** 
 
-#### **Option A: Node.js is installed (Recommended)**
+> Use the embedded script which handles certificate generation automatically. 
 
-Use the embedded script which handles certificate generation automatically.
-
-# Linux / Mac  
-`sudo node setup_v2_embedded.js`
-
-# Windows (Run PowerShell as Admin)  
-`node setup_v2_embedded.js`
-
-#### **Option B: No Node.js (Python 3\)**
-
-Use the Python version if Node is not available.
-
-# Linux / Mac  
-`sudo python3 defense_v4_embedded.py`
-
-# Windows (Run PowerShell as Admin)  
-`python defense_v4_embedded.py`
-
+*Linux / Mac*\
+`sudo node setup_v2_embedded.js` 
+ 
+*Windows (Run PowerShell as Admin)*\
+`node setup_v2_embedded.js` 
+ 
+**Option B: No Node.js (Python 3)** 
+ 
+> Use the Python version if Node is not available.
+ 
+*Linux / Mac*\
+`sudo python3 defense_v4_embedded.py` 
+ 
+*Windows (Run PowerShell as Admin)*\
+`python defense_v4_embedded.py` 
+ 
 ## **📂 Repository Structure**
 
 | File | Description |
@@ -84,7 +84,7 @@ Use the Python version if Node is not available.
 ## **🛑 Emergency Procedures**
 
 * **Do not close the terminal** running the bridge script. If the bridge stops, the malware will see connection failures and may wipe data.  
-* **Do not disconnect the internet** until the bridge script reports \--- BRIDGE ACTIVE \---.  
+* **Do not disconnect the internet** until the bridge script reports `--- BRIDGE ACTIVE ---` and you tested and verified connectivity.  
 * To **restore** the machine to normal:  
   1. Stop the script (Ctrl+C).  
   2. Remove the added lines from /etc/hosts (or Windows hosts file).  
