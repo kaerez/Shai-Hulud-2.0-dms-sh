@@ -56,20 +56,20 @@ This repository implements a Hybrid Sinkhole:
 > Use the embedded script which handles certificate generation automatically. 
 
 *Linux / Mac*\
-`sudo node setup_v2_embedded.js` 
+`sudo node setup_bridge.js` 
  
 *Windows (Run PowerShell as Admin)*\
-`node setup_v2_embedded.js` 
+`node setup_bridge.js` 
  
 **Option B: No Node.js (Python 3)** 
  
 > Use the Python version if Node is not available.
  
 *Linux / Mac*\
-`sudo python3 defense_v4_embedded.py` 
+`sudo python3 setup_bridge.py` 
  
 *Windows (Run PowerShell as Admin)*\
-`python defense_v4_embedded.py` 
+`python setup_bridge.py` 
  
 ## **📂 Repository Structure**
 
@@ -79,11 +79,8 @@ This repository implements a Hybrid Sinkhole:
 | server.js | The Mock API logic. Mimics GitHub/NPM responses. Runs on Heroku. |
 | Procfile | Heroku startup configuration. |
 | **Client Side** |  |
-| setup_v2_embedded.js | **Primary Node Script.** Contains embedded certs. Sets up trust store, hosts file, and bridge. |
-| defense_v4_embedded.py | **Primary Python Script.** Same features as above, for environments without Node.js. |
-| setup_v1_external.js | Legacy Node script (requires `ShaiHuludShield.zip`). |
-| defense_v3_external.py | Legacy Python script (requires `ShaiHuludShield.zip`). |
-| ShaiHuludShield.zip | Contains the certificate and private key |
+| setup_bridge.js | **Primary Node Script.** Contains embedded certs. Sets up trust store, hosts file, and bridge. |
+| setup_bridge.py | **Primary Python Script.** Same features as above, for environments without Node.js. |
 | local_bridge | Source folder containing the client side scripts files |
 
 ## **🛑 Emergency Procedures**
