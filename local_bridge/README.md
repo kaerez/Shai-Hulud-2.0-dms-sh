@@ -39,22 +39,18 @@ Choose the version that matches your environment constraints.\
 
 ### Option A: Node.js Available (Recommended)
 If the victim machine has Node.js installed.
-* **File:** `setup_v2_embedded.js`
+* **File:** `setup_bridge.js`
 * **Usage:**
-    * **Linux/Mac:** `sudo node setup_v2_embedded.js`
-    * **Windows:** Open PowerShell as Admin -> `node setup_v2_embedded.js`
+    * **Linux/Mac:** `sudo node setup_bridge.js`
+    * **Windows:** Open PowerShell as Admin -> `node setup_bridge.js`
 
 ### Option B: No Node.js (Python required)
 If the victim machine does not have Node, but has Python (standard on Linux/Mac).
-* **File:** `defense_v4_embedded.py`
+* **File:** `setup_bridge.py`
 * **Usage:**
-    * **Linux/Mac:** `sudo python3 defense_v4_embedded.py`
-    * **Windows:** Open PowerShell as Admin -> `python defense_v4_embedded.py`
+    * **Linux/Mac:** `sudo python3 setup_brige.py`
+    * **Windows:** Open PowerShell as Admin -> `python setup_bridge.py`
 
-### Option C: External Certificates (Manual)
-If you prefer to manage the `ShaiHuludShield.zip` file manually or the embedded versions are failing.
-1.  Ensure `ShaiHuludShield.zip` is in the same folder as the script.
-2.  Run `sudo node setup_v1_external.js` OR `sudo python3 defense_v3_external.py`.
 
 ## 🚨 Critical Warnings
 
