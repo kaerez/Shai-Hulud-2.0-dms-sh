@@ -2,6 +2,7 @@
 // 1. Node.js must be installed on the victim machine.
 // 2. The script must be run with Administrator/Root privileges (to update the Trust Store and Hosts file).
 // 3. No npm install is required for the local machine (the script uses native Node.js modules).
+// 4. You MUST update line 34!
 
 // This version looks for fake-cert.pem and fake-key.pem in the current folder. If not found, it attempts to unzip ShaiHuludShield.zip.
 
