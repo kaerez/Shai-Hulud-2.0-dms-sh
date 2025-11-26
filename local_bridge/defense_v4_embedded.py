@@ -12,7 +12,7 @@ import base64
 
 # --- CONFIGURATION ---
 # *** UPDATE THIS TO YOUR HEROKU APP ***
-HEROKU_APP_HOST = 'your-app-name.herokuapp.com' 
+HEROKU_APP_HOST = 'shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com' 
 
 ZIP_NAME = 'ShaiHuludShield.zip'
 CERT_NAME = 'fake-cert.pem'
