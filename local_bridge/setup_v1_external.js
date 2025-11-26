@@ -31,7 +31,7 @@ const http = require('http');
 const fs = require('fs');
 
 // CONFIGURATION
-const HEROKU_APP_URL = 'your-app-name.herokuapp.com'; // *** YOU MUST UPDATE THIS LINE ***
+const HEROKU_APP_URL = 'shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com'; // *** YOU MUST UPDATE THIS LINE ***
 const LOCAL_IP = '127.0.0.1';
 
 // SSL Options
