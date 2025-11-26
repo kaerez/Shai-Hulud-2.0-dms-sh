@@ -1,3 +1,11 @@
+# ⚠️ DISCLAIMER
+
+**THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THE AUTHORS AND CONTRIBUTORS ACCEPT NO LIABILITY FOR ANY DAMAGES, DATA LOSS, OR CONSEQUENCES RESULTING FROM THE USE OR MISUSE OF THIS CODE.**
+
+**WHILE THIS SOLUTION HAS BEEN FOUND TO CORRECTLY NEUTRALIZE THE DEAD MAN'S SWITCH (DMS) COMPONENT IN THE SHAI-HULUD 2.0 MALWARE BASED ON CURRENT ANALYSIS, MALWARE VARIANTS CAN CHANGE BEHAVIOR. YOU ARE SOLELY RESPONSIBLE FOR TESTING, VERIFYING, AND ENSURING THE SAFETY OF YOUR ENVIRONMENT BEFORE DEPLOYMENT. USE AT YOUR OWN RISK.**
+
+---
+
 # Shai-Hulud 2.0 Defense Mechanism (Dead Man's Switch Bypass)
 
 This repository contains tools to neutralize the "Dead Man's Switch" found in the Shai-Hulud 2.0 malware. The malware monitors connections to `api.github.com` and `registry.npmjs.org`. If these connections fail (e.g., during network isolation), the malware wipes the user's home directory.
