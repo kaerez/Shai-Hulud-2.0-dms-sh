@@ -30,7 +30,9 @@ This repository implements a Hybrid Sinkhole:
 
 ### **Phase 1: The "Brain" (Heroku)**
 
-*You* must do this first. The local *scripts need a destination to send traffic to.*
+*You* must do this first. The local *scripts need a destination to send traffic to.*\
+**You may optionally use the preconfigured instance configured in the client (local bridge) files:**\
+`shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`
 
 1. **Fork/Clone** this repository.  
 2. **Create a Heroku App** and deploy this repository to it.  
@@ -40,7 +42,9 @@ This repository implements a Hybrid Sinkhole:
 
 ### **Phase 2: The "Bridge" (Infected Machine)**
 
-*Run this on the machine you wish to isolate/protect.*
+*Run this on the machine you wish to isolate/protect.*\
+**You may optionally use the preconfigured instance configured in the client (local bridge) files:**\
+`shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`
 
 1. **Download** one of the defense scripts from this repository to the victim machine.  
 2. **Edit the Script:** Open the file and replace the variable `HEROKU_APP_HOST` (or `HEROKU_APP_URL`) with the URL you copied in Phase 1.
