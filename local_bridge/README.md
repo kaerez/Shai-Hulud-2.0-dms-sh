@@ -13,7 +13,9 @@ This repository contains tools to neutralize the "Dead Man's Switch" found in th
 **This solution creates a local "Sinkhole" that impersonates GitHub and NPM, satisfying the malware's checks while redirecting data to a safe remote logger.**
 
 ## ⚠️ Prerequisite: Cloud Brain (Heroku)
-Before running the local defense scripts, you must deploy the "Brain" to Heroku. This is the server that will receive the redirected traffic.
+Before running the local defense scripts, you must deploy the "Brain" to Heroku. This is the server that will receive the redirected traffic.\
+**You may optionally use the preconfigured instance configured in the client (local bridge) files:**\
+`shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`\
 
 1.  Deploy the code in this repo to Heroku.
 2.  Note your Heroku URL (e.g., `https://your-app-123.herokuapp.com`).
@@ -29,7 +31,9 @@ Before running the local defense scripts, you must deploy the "Brain" to Heroku.
 
 ## Choice of Scripts
 
-Choose the version that matches your environment constraints.
+Choose the version that matches your environment constraints.\
+**You may optionally use the preconfigured instance configured in the client (local bridge) files:**\
+`shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`\
 
 ### Option A: Node.js Available (Recommended)
 If the victim machine has Node.js installed.
