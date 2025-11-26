@@ -27,6 +27,7 @@ This repository implements a Hybrid Sinkhole:
 5. **Heroku App** returns a safe, mock JSON response (pacifying the malware).
 
 ## **🚀 Deployment Guide**
+#### **🛡️ You *SHOULD* check and verify the digest prior to using the files, see `FINGERPRINT.md`🛡️**
 
 ### **Phase 1: The "Brain" (Heroku)**
 
