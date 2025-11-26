@@ -1,3 +1,6 @@
+// Free and open source for non commercial open source use with attribution
+// Author: Erez Kalman
+//
 // Prerequisites
 // 1. Node.js must be installed on the victim machine.
 // 2. The script must be run with Administrator/Root privileges (to update the Trust Store and Hosts file).
