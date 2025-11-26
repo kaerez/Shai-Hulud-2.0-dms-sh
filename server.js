@@ -1,3 +1,6 @@
+// Free and open source for non commercial open source use with attribution
+// Author: Erez Kalman
+
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
