@@ -10,7 +10,7 @@
 
 This project provides a **containment solution** for the Shai-Hulud 2.0 supply chain malware.
 
-The Threat:  
+### The Threat:  
 Shai-Hulud 2.0 contains a destructive "Dead Man's Switch." It continuously verifies connectivity to GitHub and NPM. If a security team isolates the infected machine from the internet, these checks fail, and the malware activates a wiper to delete user data.  
 The Solution:  
 This repository implements a Hybrid Sinkhole:
@@ -50,21 +50,21 @@ This repository implements a Hybrid Sinkhole:
 
 Use the embedded script which handles certificate generation automatically.
 
-\# Linux / Mac  
-sudo node setup\_v2\_embedded.js
+# Linux / Mac  
+`sudo node setup_v2_embedded.js`
 
-\# Windows (Run PowerShell as Admin)  
-node setup\_v2\_embedded.js
+# Windows (Run PowerShell as Admin)  
+`node setup_v2_embedded.js`
 
 #### **Option B: No Node.js (Python 3\)**
 
 Use the Python version if Node is not available.
 
-\# Linux / Mac  
-sudo python3 defense\_v4\_embedded.py
+# Linux / Mac  
+`sudo python3 defense_v4_embedded.py`
 
-\# Windows (Run PowerShell as Admin)  
-python defense\_v4\_embedded.py
+# Windows (Run PowerShell as Admin)  
+`python defense_v4_embedded.py`
 
 ## **📂 Repository Structure**
 
