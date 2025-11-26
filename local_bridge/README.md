@@ -5,13 +5,13 @@
 
 **THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THE AUTHORS AND CONTRIBUTORS ACCEPT NO LIABILITY FOR ANY DAMAGES, DATA LOSS, OR CONSEQUENCES RESULTING FROM THE USE OR MISUSE OF THIS CODE.**
 
-**WHILE THIS SOLUTION HAS BEEN FOUND TO CORRECTLY NEUTRALIZE THE DEAD MAN'S SWITCH (DMS) COMPONENT IN THE SHAI-HULUD 2.0 MALWARE BASED ON CURRENT ANALYSIS, MALWARE VARIANTS CAN CHANGE BEHAVIOR. YOU ARE SOLELY RESPONSIBLE FOR TESTING, VERIFYING, AND ENSURING THE SAFETY OF YOUR ENVIRONMENT BEFORE DEPLOYMENT. USE AT YOUR OWN RISK.**
+**WHILE THIS SOLUTION HAS BEEN FOUND TO CORRECTLY NEUTRALIZE THE DEAD MAN'S SWITCH (DMS) COMPONENT IN THE Sha1-HULUD 2.0 MALWARE BASED ON CURRENT ANALYSIS, MALWARE VARIANTS CAN CHANGE BEHAVIOR. YOU ARE SOLELY RESPONSIBLE FOR TESTING, VERIFYING, AND ENSURING THE SAFETY OF YOUR ENVIRONMENT BEFORE DEPLOYMENT. USE AT YOUR OWN RISK.**
 
 ---
 
-# Shai-Hulud 2.0 Defense Mechanism (Dead Man's Switch Bypass)
+# Sha1-Hulud 2.0 (not Shai-Hulud 2.0) Defense Mechanism (Dead Man's Switch Bypass)
 
-This repository contains tools to neutralize the "Dead Man's Switch" found in the Shai-Hulud 2.0 malware. The malware monitors connections to `api.github.com` and `registry.npmjs.org`. If these connections fail (e.g., during network isolation), the malware wipes the user's home directory.
+This repository contains tools to neutralize the "Dead Man's Switch" found in the Sha1-Hulud 2.0 malware. The malware monitors connections to `api.github.com` and `registry.npmjs.org`. If these connections fail (e.g., during network isolation), the malware wipes the user's home directory.
 
 **This solution creates a local "Sinkhole" that impersonates GitHub and NPM, satisfying the malware's checks while redirecting data to a safe remote logger.**
 
@@ -20,7 +20,7 @@ This repository contains tools to neutralize the "Dead Man's Switch" found in th
 ## ⚠️ Prerequisite: Cloud Brain (Heroku)
 Before running the local defense scripts, you must deploy the "Brain" to Heroku. This is the server that will receive the redirected traffic.\
 **You may optionally use the preconfigured instance configured in the client (local bridge) files:**\
-`shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`
+`Sha1-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`
 
 1.  Deploy the code in this repo to Heroku.
 2.  Note your Heroku URL (e.g., `https://your-app-123.herokuapp.com`).
@@ -38,7 +38,7 @@ Before running the local defense scripts, you must deploy the "Brain" to Heroku.
 
 Choose the version that matches your environment constraints.\
 **You may optionally use the preconfigured instance configured in the client (local bridge) files:**\
-`shai-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`
+`Sha1-hulud-2-0-dms-sh-bd640bc05c42.herokuapp.com`
 
 ### Option A: Node.js Available (Recommended)
 If the victim machine has Node.js installed.
