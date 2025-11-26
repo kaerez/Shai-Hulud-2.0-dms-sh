@@ -1,4 +1,6 @@
 # **Shai-Hulud 2.0 Dead Man's Switch Sinkhole (DMS-SH)**
+> Free and open source for non commercial open source use with attribution\
+> Author: Erez Kalman
 
 # **⚠️ DISCLAIMER**
 
